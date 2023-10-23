@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservas Restaurante XYZ</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+        });
+    </script>
+
+</head>
+<body>
+    <header>
+        <section>
+            <img src="./images/LogoRestaurante.png" alt="Imagen de Logo Restaurante" width="1800px" height="400px">
+
+        </section>       
+        
+        <nav>
+            <ul id="navbar">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/menu.html">Menú</a></li>
+                <li><a href="/confirmation.html">Confirmación</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section>
+            <!-- HTML para el slider -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <img src="./images/Food1.png" alt="Descripción del Plato 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <img src="./images/Food2.png" alt="Descripción del Plato 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+            <img src="./images/Food3.png" alt="Descripción del Plato 3">
+        </div>
+        <!-- ... añade más slides según sea necesario ... -->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+        </section>
+        <h1>Bienvenidos a Restaurante XYZ: Un Viaje Culinario Único</h1>
+       
+        
+        <p>Descubre una experiencia gastronómica inolvidable en el corazón de nuestra ciudad en el Restaurante XYZ. Desde nuestra apertura en 1985, nos hemos dedicado a ofrecer una mezcla auténtica de tradiciones culinarias con un toque moderno. Situado en una encantadora edificación histórica que data de principios del siglo XX, nuestro restaurante ha sido un lugar de encuentro para amantes de la buena comida, familias y amigos que buscan celebrar momentos especiales.</p>
+        
+        <h2>Nuestra Esencia Culinaria</h2>
+        <p>Nos enorgullece presentar un menú meticulosamente curado que refleja la riqueza y la diversidad de la cocina mediterránea con influencias locales. Cada plato es una celebración de sabores auténticos, ingredientes frescos de la región y la pasión de nuestros chefs por la excelencia culinaria.</p>
+
+        
+        <h2>Un Viaje a través de los Sabores</h2>
+        <p>Desde entrantes que despiertan el apetito hasta platos principales robustos y postres decadentes, cada opción en nuestro menú promete llevar a los comensales en un viaje de descubrimiento culinario. Ya sea que prefieras la sutileza del pescado fresco, la robustez de las carnes bien preparadas o la dulzura de los postres caseros, hay algo para satisfacer cada paladar.</p>
+        
+        <h2>Vinos y Bebidas</h2>
+        Nuestra selección de vinos ha sido cuidadosamente seleccionada para complementar la variedad de sabores en nuestro menú. También ofrecemos una variedad de otras bebidas incluyendo cócteles clásicos y contemporáneos, cervezas artesanales y bebidas sin alcohol.
+        
+        Te invitamos a unirte a nosotros en Restaurante XYZ para una experiencia culinaria que celebra la herencia gastronómica y la innovación. Reserva tu mesa hoy y sé parte de nuestra historia culinaria.
+        
+        
+    </main>
+    <footer>
+        <!-- Información de contacto y derechos de autor -->
+    </footer>
+</body>
+</html>

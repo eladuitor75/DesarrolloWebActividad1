@@ -1,0 +1,164 @@
+/* Estilos básicos, necesitarás expandir y optimizar esto */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header, nav, main, footer {
+    padding: 20px;
+}
+/* Estilos para la barra de navegación */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #111;
+}
+#seatingCanvas {
+    border: 1px solid #000;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* Contenedor para las tarjetas */
+.menu-items {
+     text-align: center; /* Centra el texto horizontalmente */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centrar tarjetas en el contenedor */
+}
+
+/* Estilos básicos para las tarjetas */
+.card {
+     text-align: center; /* Centra el texto horizontalmente */
+    flex: 1 1 calc(33.333% - 20px); /* Toma un tercio del espacio, menos el espacio entre tarjetas */
+    box-sizing: border-box; /* Asegurar que el padding y el border estén incluidos en el ancho y la altura */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transición al pasar el cursor */
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* Estilos para la animación al pasar el cursor */
+.card:hover {
+    transform: scale(1.05); /* Agrandar la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+/* Opcional: Estilos para la imagen, título y descripción */
+.card img {
+    width: 30%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0 auto; /* Centra el bloque en su contenedor si tiene un ancho definido */
+    font-size: 1.25em;
+    padding: 10px 0; /* Añade algo de espacio arriba y abajo del título */
+}
+
+
+.card-description {
+     text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 0;
+    
+}
+
+
+/* Estilos para el slider */
+.swiper-container {
+    width: 80%; /* O puedes especificar una anchura en píxeles, por ejemplo: 800px */
+    height: auto; /* Esto permitirá que el slider se ajuste a la altura de las imágenes */
+}
+
+/* Estilos para las imágenes dentro del slider */
+.swiper-slide img {
+    width: 100%; /* Esto hará que la imagen ocupe toda la anchura del slide */
+    height: auto; /* Esto mantendrá la proporción de la imagen */
+    max-height: 300px; /* Puedes ajustar esta valor según lo necesites */
+    object-fit: cover; /* Esto asegurará que la imagen cubra el área del slide sin deformarse */
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+}
+
+/* Si deseas centrar las imágenes verticalmente */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-category {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.menu-category h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/*Estilo formulario  */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

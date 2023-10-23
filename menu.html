@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservas Restaurante XYZ</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul id="navbar">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/menu.html">Menú</a></li>
+                <li><a href="/confirmation.html">Confirmación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="./images/LogoRestaurante.png" alt="Imagen de Logo Restaurante" width="1800px" height="400px">
+
+        </section>
+        <div class="menu-category" onclick="toggleMenu('entradas')">
+            <h2>Entradas</h2>
+            <div class="menu-items" id="entradas">
+                <!-- Detalles de entradas -->
+                <!-- ... (añade las tarjetas de las entradas aquí) ... -->
+                <!-- Tarjetas de entradas -->
+            <div class="card">
+                <img src="./images/CroquetaJamon.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Croquetas de Jamón</h3>
+                <p class="card-description">Delicadas y crujientes croquetas rellenas de jamón serrano y una suave bechamel, servidas con una salsa aioli casera.</p>
+            </div>
+            <div class="card">
+                <img src="./images/TablaQuesosEmbutidos.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Tabla de Quesos y Embutidos</h3>
+                <p class="card-description">Una selección de quesos artesanales y embutidos curados, acompañados de pan de pita tostado, nueces, aceitunas y chutney de higos.</p>
+            </div>
+            <div class="card">
+                <img src="./images/Food1.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Calamares Fritos</h3>
+                <p class="card-description">Anillas de calamar fresco, rebozadas y fritas a la perfección, servidas con una salsa tártara casera y limón fresco.</p>
+            </div>
+            <div class="card">
+                <img src="./images/Food1.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Hummus con Verduras Asadas</h3>
+                <p class="card-description">Suave hummus de garbanzo servido con verduras asadas y un chorrito de aceite de oliva virgen extra, acompañado de pan de pita fresco.</p>
+            </div>
+            <div class="card">
+                <img src="./images/Food1.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Albóndigas al estilo Mediterráneo</h3>
+                <p class="card-description">Jugosas albóndigas de ternera y cerdo en una salsa de tomate aromática con hierbas frescas, servidas con un trozo de pan rústico.</p>
+            </div>
+            </div>
+        </div>
+        
+        <div class="menu-category" onclick="toggleMenu('platos')">
+            <h2>Platos</h2>
+            <div class="menu-items" id="platos">
+                <!-- Detalles de platos -->
+                <!-- ... (añade las tarjetas de los platos aquí) ... -->
+                <!-- Tarjetas de platos -->
+            <div class="card">
+                <img src="./images/BruschettaClasica.png" alt="Imagen de Bruschetta Clásica">
+                <h3 class="card-title"> Bruschetta Clásica</h3>
+                <p class="card-description"> Crujientes rebanadas de pan baguette tostado cubiertas con una mezcla fresca de tomates maduros, albahaca fresca, ajo, aceite de oliva virgen extra y un toque de vinagre balsámico.</p>
+            </div>
+
+
+            <div class="card">
+                <img src="./images/CremaCalabaza.png" alt="Imagen de Crema de Calabaza">
+                <h3 class="card-title">Crema de Calabaza</h3>
+                <p class="card-description"> Sopa suave y cremosa elaborada con calabaza asada, cebolla caramelizada y un toque de nata, servida caliente con un chorrito de aceite de oliva y semillas de calabaza tostadas.</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/EnsaladaCesar.png" alt="Imagen de Ensalada Cesar con Pollo a la parrilla.">
+                <h3 class="card-title">Ensalada César con Pollo a la Parrilla</h3>
+                <p class="card-description">Frescos cogollos de lechuga romana, trozos de pollo a la parrilla, crujientes croutons de ajo, queso parmesano rallado y nuestro aderezo César casero.</p>
+            </div>
+            <div class="card">
+                <img src="./images/Food2.png" alt="Imagen de Filete de Salmón Glaseado">
+                <h3 class="card-title">Filete de Salmón Glaseado</h3>
+                <p class="card-description">Filete de salmón fresco glaseado con una reducción de soja y miel, servido con un acompañamiento de arroz jazmín y verduras al vapor.</p>
+            </div>
+            
+            <!-- ... -->
+            <div class="menu-category" onclick="toggleMenu('postres')">
+                <h2>Postres</h2>
+                <div class="menu-items" id="postres">
+                    <!-- Detalles de postres -->
+                    <!-- ... (añade las tarjetas de los postres aquí) ... -->
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="menu-category" onclick="toggleMenu('postres')">
+            <h2>Postres</h2>
+            <div class="menu-items" id="platos">
+                <!-- Detalles de platos -->
+                <!-- ... (añade las tarjetas de los platos aquí) ... -->
+                <!-- Tarjetas de platos -->
+            <div class="card">
+                <img src="./images/Food2.png" alt="Imagen de Croquetas de Jamón">
+                <h3 class="card-title">Croquetas de Jamón</h3>
+                <p class="card-description">Delicadas y crujientes croquetas rellenas de jamón serrano y una suave bechamel, servidas con una salsa aioli casera.</p>
+            </div>
+            
+            <!-- ... -->
+            <div class="menu-category" onclick="toggleMenu('postres')">
+                <h2>Postres</h2>
+                <div class="menu-items" id="postres">
+                    <!-- Detalles de postres -->
+                    <!-- ... (añade las tarjetas de los postres aquí) ... -->
+                </div>
+            </div>
+            </div>
+        </div>
+            <div class="menu-category" onclick="toggleMenu('bebidas')">
+                <h2>Bebidas</h2>
+                <div class="menu-items" id="bebidas">
+                    <!-- Detalles de bebidas -->
+                    <div id="vinos">
+                        <h3>Vinos</h3>
+                        <!-- Tarjetas de vinos -->
+                        <!-- ... (añade las tarjetas de los vinos aquí) ... -->
+                        <!-- Tarjetas de vinos -->
+                    <div class="card">
+                        <img src="./images/Wine1.png" alt="Imagen de Croquetas de Jamón">
+                        <h3 class="card-title">Croquetas de Jamón</h3>
+                        <p class="card-description">Delicadas y crujientes croquetas rellenas de jamón serrano y una suave bechamel, servidas con una salsa aioli casera.</p>
+                    </div>
+                    
+                    </div>
+                    <div id="otros">
+                        <h3>Otras Bebidas</h3>
+                        <!-- Tarjetas de otras bebidas -->
+                        <!-- ... (añade las tarjetas de otras bebidas aquí) ... -->
+                        <!-- Tarjetas de otras bebidas -->
+                    <div class="card">
+                        <img src="./images/Mojito.png" alt="Imagen de Mojito">
+                        <h3 class="card-title">Mojito Clásico</h3>
+                        <p class="card-description">Un refrescante mojito preparado con ron blanco, hojas de menta fresca, lima, azúcar y soda, adornado con una ramita de menta y una rodaja de lima.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/CafeLatte.png" alt="Imagen de Café Latte">
+                        <h3 class="card-title">Café Latte</h3>
+                        <p class="card-description">Un suave y cremoso latte elaborado con espresso recién hecho y leche vaporizada, servido caliente o frío con una capa de espuma de leche.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/SmoothieFrutosRojos.png" alt="Imagen de Smoothie de Frutos Rojos">
+                        <h3 class="card-title">Smoothie de Frutos Rojos</h3>
+                        <p class="card-description">Un smoothie nutritivo y revitalizante hecho con una mezcla de frutos rojos frescos, yogur y un toque de miel, servido frío.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/ArtesalBeer.png" alt="Imagen de Cerveza Artesanal">
+                        <h3 class="card-title">Cerveza Artesanal IPA</h3>
+                        <p class="card-description">Una cerveza IPA local, con un perfil aromático cítrico y floral, y un amargor equilibrado que la hace refrescante y fácil de beber.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/AguaInfusion.png" alt="Imagen de Agua con Infusión de Frutas">
+                        <h3 class="card-title">Agua con Infusión de Frutas</h3>
+                        <p class="card-description">Agua fresca infusionada con una selección de frutas de temporada, ofreciendo una hidratación refrescante y saludable con un toque de sabor natural.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+    </main> 
+    
+    
+    
+    <script src="./js/scripts.js"></script>
+    
+    <footer>
+        <!-- Información de contacto y derechos de autor -->
+    </footer>
+</body>
+</html>
